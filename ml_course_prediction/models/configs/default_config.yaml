@@ -1,0 +1,96 @@
+# Default Configuration for ML Course Prediction Model
+
+model:
+  name: "hybrid_lstm_transformer"
+  architecture: "hybrid"
+  
+  # LSTM Parameters
+  lstm:
+    num_layers: 2
+    hidden_size: 128
+    dropout: 0.2
+    bidirectional: false
+  
+  # Transformer Parameters
+  transformer:
+    num_layers: 4
+    hidden_size: 256
+    num_heads: 8
+    dropout: 0.1
+    feedforward_size: 1024
+  
+  # Output Parameters
+  output:
+    prediction_horizon: 48  # hours
+    time_steps: 8  # predictions at 6-hour intervals
+    include_uncertainty: true
+    uncertainty_method: "variational"  # or "monte_carlo" or "ensemble"
+
+# Training Parameters
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 100
+  early_stopping_patience: 10
+  gradient_clip: 1.0
+  
+  # Loss Function Weights
+  loss_weights:
+    position: 1.0
+    speed: 0.5
+    course: 0.5
+    uncertainty: 0.3
+    physics: 0.2
+  
+  # Data Parameters
+  sequence_length: 24  # hours of history (max 8 points: AIS reports every 3 hours)
+  prediction_horizon: 48  # hours to predict
+  min_trajectory_length: 2  # minimum points (AIS reports every 3h, so 2 points = 6h)
+  max_gap_hours: 6.0  # normal gap = 2 reporting intervals (3h * 2)
+  ais_reporting_interval_hours: 3.0  # AIS reports every 3 hours
+  max_points_per_24h: 8  # 24 hours / 3 hours = 8 points maximum
+
+# Data Parameters
+data:
+  max_speed_knots: 50.0
+  max_acceleration: 10.0
+  interpolation_interval_hours: 1.0
+  
+  # Feature Engineering
+  features:
+    include_position: true
+    include_speed: true
+    include_course: true
+    include_heading: true
+    include_vessel_type: true
+    include_temporal: true
+
+# Physics Constraints
+physics:
+  max_speed_knots: 50.0
+  max_turn_rate_deg_per_hour: 180.0
+  min_speed_knots: 0.0
+  enforce_constraints: true
+
+# Evaluation
+evaluation:
+  metrics:
+    - "mae"  # Mean Absolute Error
+    - "rmse"  # Root Mean Square Error
+    - "uncertainty_coverage"  # % within 1σ
+    - "temporal_degradation"  # Error growth rate
+  
+  target_accuracy:
+    mae_48h_nm: 50.0
+    rmse_48h_nm: 50.0
+    uncertainty_coverage_1sigma: 0.68
+    max_error_growth_rate_nm_per_hour: 2.0
+
+# Paths
+paths:
+  data_dir: "data"
+  historical_data_path: "C:\\AIS_Data_Testing\\Historical\\2024"
+  models_dir: "models/trained"
+  logs_dir: "logs"
+  results_dir: "results"
+
