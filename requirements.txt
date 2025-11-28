@@ -1,0 +1,62 @@
+# Core data processing and analysis
+pandas>=1.3.0
+numpy>=1.20.0
+dask>=2022.1.0
+scipy>=1.7.0
+scikit-learn>=1.0.0  # For KMeans clustering and other ML algorithms
+
+# Geospatial libraries
+geopy>=2.0.0
+folium>=0.12.0
+branca>=0.4.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0  # For interactive scatter plots and advanced visualizations
+
+# Data handling and processing
+pyarrow>=6.0.0  # For parquet file support
+requests>=2.25.0  # For API requests and downloads
+openpyxl>=3.0.0  # For Excel file reading/writing
+xlsxwriter>=3.0.0  # For Excel file generation with charts
+
+# AWS support
+boto3>=1.20.0
+botocore>=1.20.0
+s3fs>=2023.1.0  # For S3 access with Dask
+
+# System monitoring and utilities
+psutil>=5.9.0  # For system resource monitoring
+
+# GUI enhancements
+Pillow>=9.0.0  # PIL fork for image processing
+tkcalendar>=1.6.0  # Calendar widget for date selection
+
+# Note: concurrent.futures is in Python standard library since 3.2
+# The concurrent-futures package is only needed for Python < 3.2
+# Since this project requires Python 3.8+, this line is optional but harmless
+# concurrent-futures>=3.1.0; python_version < '3.8'  # Not needed for Python 3.8+
+
+# Windows specific (optional)
+pywin32>=300 ; platform_system=='Windows'
+
+# NVIDIA CUDA support (commented out as they require special installation)
+# cudf<1.0  # GPU-accelerated DataFrame
+# cupy<8.0   # GPU-accelerated NumPy (for NVIDIA CUDA)
+# cuml<1.0  # GPU-accelerated Machine Learning
+
+# GPU support (RAPIDS ecosystem)
+# Note: Higher versions (25.x+) require conda installation
+# These are pip-installable fallback versions - Uncomment for systems with supported GPUs
+
+# AMD GPU support (ROCm/HIP)
+# AMD support requires the HIP-SDK to be installed https://www.amd.com/en/developer/resources/rocm-hub/hip-sdk.html
+# Install cupy-rocm for AMD GPUs (replaces cupy for AMD systems)
+# cupy-rocm>=12.0.0  # AMD ROCm version of CuPy (install via: pip install cupy-rocm)
+# Alternatively, use PyHIP for direct HIP access:
+# pyhip>=0.1.0  # PyHIP for direct AMD HIP runtime access
+
+# Note: tkinter is usually included with Python installations
+# On Linux, you may need to install: sudo apt-get install python3-tk
+# On macOS, tkinter should be included with Python from python.org

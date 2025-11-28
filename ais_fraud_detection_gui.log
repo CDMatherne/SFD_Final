@@ -1,0 +1,336 @@
+2025-11-26 21:12:38,710 - utils - INFO - Checking dependencies...
+2025-11-26 21:12:38,710 - utils - INFO - Python version: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+2025-11-26 21:12:38,710 - utils - INFO - Python executable: C:\Users\chris\AppData\Local\Programs\Python\Python314\python.exe
+2025-11-26 21:12:39,429 - utils - INFO - All dependencies are satisfied.
+2025-11-26 21:16:38,787 - SDF_GUI - INFO - Found script file: SFD.py
+2025-11-26 21:16:38,787 - SDF_GUI - INFO - Script path: c:\Users\chris\OneDrive\Documents\SFD_Beta_release\SFD.py
+2025-11-26 21:16:38,789 - SDF_GUI - INFO - Config path: c:\Users\chris\OneDrive\Documents\SFD_Beta_release\config.ini
+2025-11-26 21:16:38,791 - SDF_GUI - INFO - Command: C:\Users\chris\AppData\Local\Programs\Python\Python314\python.exe c:\Users\chris\OneDrive\Documents\SFD_Beta_release\SFD.py --start-date 2024-10-01 --end-date 2024-10-03 --data-source noaa --output-directory C:/AIS_Data/Output --debug
+Working directory: c:\Users\chris\OneDrive\Documents\SFD_Beta_release
+2025-11-26 21:16:38,994 - SDF_GUI - INFO - Created AISDataTemp directory: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp
+2025-11-26 21:16:39,000 - SDF_GUI - INFO - Using temporary directory:
+ - Base: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp
+ - Parquet: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp\parquet
+2025-11-26 21:16:39,003 - SDF_GUI - INFO - STARTING DOWNLOAD PROCESS: NOAA AIS data from 2024-10-01 to 2024-10-03
+2025-11-26 21:16:39,017 - SDF_GUI - INFO - Download phase will be followed by extraction and conversion.
+2025-11-26 21:16:39,501 - SDF_GUI - INFO - Will download 3 daily files
+2025-11-26 21:16:39,544 - SDF_GUI - INFO - Total files to process: 3 (3 cached, 0 to download)
+2025-11-26 21:16:39,548 - SDF_GUI - INFO - Found 3 cached file(s), skipping download for those dates
+2025-11-26 21:16:39,556 - SDF_GUI - INFO -    Using cached: ais-2024-10-01.parquet (1/3)
+2025-11-26 21:16:39,714 - SDF_GUI - INFO -    Using cached: ais-2024-10-02.parquet (2/3)
+2025-11-26 21:16:40,003 - SDF_GUI - INFO -    Using cached: ais-2024-10-03.parquet (3/3)
+2025-11-26 21:16:40,178 - SDF_GUI - INFO - Successfully processed 3/3 files
+2025-11-26 21:16:40,213 - SDF_GUI - INFO - Using NOAA data source: https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2024/
+2025-11-26 21:16:40,214 - SDF_GUI - INFO - Attempting to start process with cmd: ['C:\\Users\\chris\\AppData\\Local\\Programs\\Python\\Python314\\python.exe', 'c:\\Users\\chris\\OneDrive\\Documents\\SFD_Beta_release\\SFD.py', '--start-date', '2024-10-01', '--end-date', '2024-10-03', '--data-source', 'noaa', '--output-directory', 'C:/AIS_Data/Output', '--debug', '--data-directory', 'C:\\Users\\chris\\OneDrive\\Documents\\SFD_Beta_release\\AISDataTemp\\parquet']
+2025-11-26 21:16:40,214 - SDF_GUI - INFO - =========================
+2025-11-26 21:16:40,214 - SDF_GUI - INFO - DEBUG: Starting subprocess
+2025-11-26 21:16:40,214 - SDF_GUI - INFO - DEBUG: Command: C:\Users\chris\AppData\Local\Programs\Python\Python314\python.exe c:\Users\chris\OneDrive\Documents\SFD_Beta_release\SFD.py --start-date 2024-10-01 --end-date 2024-10-03 --data-source noaa --output-directory C:/AIS_Data/Output --debug --data-directory C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp\parquet
+2025-11-26 21:16:40,214 - SDF_GUI - INFO - DEBUG: Working directory: c:\Users\chris\OneDrive\Documents\SFD_Beta_release
+2025-11-26 21:16:40,215 - SDF_GUI - INFO - DEBUG: Env variables: SFD_GUI_MODE=true
+2025-11-26 21:16:40,220 - SDF_GUI - INFO - DEBUG: Process started with PID: 7680
+2025-11-26 21:16:40,220 - SDF_GUI - INFO - =========================
+2025-11-26 21:16:40,220 - SDF_GUI - INFO - Process started with PID: 7680
+2025-11-26 21:16:40,239 - SDF_GUI - INFO - Starting output capture for subprocess
+2025-11-26 21:16:40,240 - SDF_GUI - INFO - Started stdout reading thread
+2025-11-26 21:16:40,240 - SDF_GUI - INFO - Started stderr reading thread
+2025-11-26 21:16:40,240 - SDF_GUI - INFO - Starting to process output queues
+2025-11-26 21:17:13,866 - SDF_GUI - INFO - Found script file: SFD.py
+2025-11-26 21:17:13,867 - SDF_GUI - INFO - Script path: c:\Users\chris\OneDrive\Documents\SFD_Beta_release\SFD.py
+2025-11-26 21:17:13,867 - SDF_GUI - INFO - Config path: c:\Users\chris\OneDrive\Documents\SFD_Beta_release\config.ini
+2025-11-26 21:17:13,869 - SDF_GUI - INFO - Command: C:\Users\chris\AppData\Local\Programs\Python\Python314\python.exe c:\Users\chris\OneDrive\Documents\SFD_Beta_release\SFD.py --start-date 2024-10-01 --end-date 2024-10-03 --data-source noaa --output-directory C:/AIS_Data/Output --debug
+Working directory: c:\Users\chris\OneDrive\Documents\SFD_Beta_release
+2025-11-26 21:17:13,991 - SDF_GUI - INFO - Using existing AISDataTemp directory: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp
+2025-11-26 21:17:13,999 - SDF_GUI - INFO - Using temporary directory:
+ - Base: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp
+ - Parquet: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp\parquet
+2025-11-26 21:17:14,003 - SDF_GUI - INFO - STARTING DOWNLOAD PROCESS: NOAA AIS data from 2024-10-01 to 2024-10-03
+2025-11-26 21:17:14,016 - SDF_GUI - INFO - Download phase will be followed by extraction and conversion.
+2025-11-26 21:17:14,371 - SDF_GUI - INFO - Will download 3 daily files
+2025-11-26 21:17:14,441 - SDF_GUI - INFO - Total files to process: 3 (3 cached, 0 to download)
+2025-11-26 21:17:14,443 - SDF_GUI - INFO - Found 3 cached file(s), skipping download for those dates
+2025-11-26 21:17:14,454 - SDF_GUI - INFO -    Using cached: ais-2024-10-01.parquet (1/3)
+2025-11-26 21:17:14,599 - SDF_GUI - INFO -    Using cached: ais-2024-10-02.parquet (2/3)
+2025-11-26 21:17:14,836 - SDF_GUI - INFO -    Using cached: ais-2024-10-03.parquet (3/3)
+2025-11-26 21:17:15,057 - SDF_GUI - INFO - Successfully processed 3/3 files
+2025-11-26 21:17:15,144 - SDF_GUI - INFO - Using NOAA data source: https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2024/
+2025-11-26 21:17:15,145 - SDF_GUI - INFO - Attempting to start process with cmd: ['C:\\Users\\chris\\AppData\\Local\\Programs\\Python\\Python314\\python.exe', 'c:\\Users\\chris\\OneDrive\\Documents\\SFD_Beta_release\\SFD.py', '--start-date', '2024-10-01', '--end-date', '2024-10-03', '--data-source', 'noaa', '--output-directory', 'C:/AIS_Data/Output', '--debug', '--data-directory', 'C:\\Users\\chris\\OneDrive\\Documents\\SFD_Beta_release\\AISDataTemp\\parquet']
+2025-11-26 21:17:15,145 - SDF_GUI - INFO - =========================
+2025-11-26 21:17:15,145 - SDF_GUI - INFO - DEBUG: Starting subprocess
+2025-11-26 21:17:15,145 - SDF_GUI - INFO - DEBUG: Command: C:\Users\chris\AppData\Local\Programs\Python\Python314\python.exe c:\Users\chris\OneDrive\Documents\SFD_Beta_release\SFD.py --start-date 2024-10-01 --end-date 2024-10-03 --data-source noaa --output-directory C:/AIS_Data/Output --debug --data-directory C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp\parquet
+2025-11-26 21:17:15,145 - SDF_GUI - INFO - DEBUG: Working directory: c:\Users\chris\OneDrive\Documents\SFD_Beta_release
+2025-11-26 21:17:15,146 - SDF_GUI - INFO - DEBUG: Env variables: SFD_GUI_MODE=true
+2025-11-26 21:17:15,148 - SDF_GUI - INFO - DEBUG: Process started with PID: 27488
+2025-11-26 21:17:15,149 - SDF_GUI - INFO - =========================
+2025-11-26 21:17:15,149 - SDF_GUI - INFO - Process started with PID: 27488
+2025-11-26 21:17:15,168 - SDF_GUI - INFO - Starting output capture for subprocess
+2025-11-26 21:17:15,168 - SDF_GUI - INFO - Started stdout reading thread
+2025-11-26 21:17:15,169 - SDF_GUI - INFO - Started stderr reading thread
+2025-11-26 21:17:15,169 - SDF_GUI - INFO - Starting to process output queues
+2025-11-26 21:21:59,760 - SDF_GUI - INFO - Stdout reader detected process exit
+2025-11-26 21:21:59,762 - SDF_GUI - INFO - Stderr reader detected process exit
+2025-11-26 21:21:59,763 - SDF_GUI - INFO - Stdout reader thread exiting
+2025-11-26 21:21:59,764 - SDF_GUI - INFO - Stderr reader thread exiting
+2025-11-26 21:21:59,781 - SDF_GUI - INFO - Process exited with code 0, reading remaining output
+2025-11-26 21:21:59,786 - SDF_GUI - INFO - Analysis completed with return code 0 - showing completion options
+2025-11-26 21:22:00,295 - SDF_GUI - INFO - Setting up analysis completion UI with output_directory=C:/AIS_Data/Output, success=True
+2025-11-26 21:22:37,648 - SDF_GUI - INFO - Process exited with code 101, reading remaining output
+2025-11-26 21:22:37,716 - SDF_GUI - INFO - Stdout reader detected process exit
+2025-11-26 21:22:37,717 - SDF_GUI - INFO - Stderr reader detected process exit
+2025-11-26 21:22:37,717 - SDF_GUI - INFO - Stdout reader thread exiting
+2025-11-26 21:22:37,717 - SDF_GUI - INFO - Stderr reader thread exiting
+2025-11-26 21:32:39,112 - SDF_GUI - INFO - Found script file: SFD.py
+2025-11-26 21:32:39,113 - SDF_GUI - INFO - Script path: c:\Users\chris\OneDrive\Documents\SFD_Beta_release\SFD.py
+2025-11-26 21:32:39,113 - SDF_GUI - INFO - Config path: c:\Users\chris\OneDrive\Documents\SFD_Beta_release\config.ini
+2025-11-26 21:32:39,123 - SDF_GUI - INFO - Command: C:\Users\chris\AppData\Local\Programs\Python\Python314\python.exe c:\Users\chris\OneDrive\Documents\SFD_Beta_release\SFD.py --start-date 2024-10-01 --end-date 2024-10-03 --data-source noaa --output-directory C:/AIS_Data/Output --debug
+Working directory: c:\Users\chris\OneDrive\Documents\SFD_Beta_release
+2025-11-26 21:32:39,245 - SDF_GUI - INFO - Using existing AISDataTemp directory: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp
+2025-11-26 21:32:39,251 - SDF_GUI - INFO - Using temporary directory:
+ - Base: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp
+ - Parquet: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp\parquet
+2025-11-26 21:32:39,254 - SDF_GUI - INFO - STARTING DOWNLOAD PROCESS: NOAA AIS data from 2024-10-01 to 2024-10-03
+2025-11-26 21:32:39,264 - SDF_GUI - INFO - Download phase will be followed by extraction and conversion.
+2025-11-26 21:32:39,600 - SDF_GUI - INFO - Will download 3 daily files
+2025-11-26 21:32:39,693 - SDF_GUI - INFO - Total files to process: 3 (3 cached, 0 to download)
+2025-11-26 21:32:39,696 - SDF_GUI - INFO - Found 3 cached file(s), skipping download for those dates
+2025-11-26 21:32:39,703 - SDF_GUI - INFO -    Using cached: ais-2024-10-01.parquet (1/3)
+2025-11-26 21:32:39,825 - SDF_GUI - INFO -    Using cached: ais-2024-10-02.parquet (2/3)
+2025-11-26 21:32:40,065 - SDF_GUI - INFO -    Using cached: ais-2024-10-03.parquet (3/3)
+2025-11-26 21:32:40,254 - SDF_GUI - INFO - Successfully processed 3/3 files
+2025-11-26 21:32:40,273 - SDF_GUI - INFO - Using NOAA data source: https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2024/
+2025-11-26 21:32:40,273 - SDF_GUI - INFO - Attempting to start process with cmd: ['C:\\Users\\chris\\AppData\\Local\\Programs\\Python\\Python314\\python.exe', 'c:\\Users\\chris\\OneDrive\\Documents\\SFD_Beta_release\\SFD.py', '--start-date', '2024-10-01', '--end-date', '2024-10-03', '--data-source', 'noaa', '--output-directory', 'C:/AIS_Data/Output', '--debug', '--data-directory', 'C:\\Users\\chris\\OneDrive\\Documents\\SFD_Beta_release\\AISDataTemp\\parquet']
+2025-11-26 21:32:40,275 - SDF_GUI - INFO - =========================
+2025-11-26 21:32:40,275 - SDF_GUI - INFO - DEBUG: Starting subprocess
+2025-11-26 21:32:40,275 - SDF_GUI - INFO - DEBUG: Command: C:\Users\chris\AppData\Local\Programs\Python\Python314\python.exe c:\Users\chris\OneDrive\Documents\SFD_Beta_release\SFD.py --start-date 2024-10-01 --end-date 2024-10-03 --data-source noaa --output-directory C:/AIS_Data/Output --debug --data-directory C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp\parquet
+2025-11-26 21:32:40,275 - SDF_GUI - INFO - DEBUG: Working directory: c:\Users\chris\OneDrive\Documents\SFD_Beta_release
+2025-11-26 21:32:40,276 - SDF_GUI - INFO - DEBUG: Env variables: SFD_GUI_MODE=true
+2025-11-26 21:32:40,280 - SDF_GUI - INFO - DEBUG: Process started with PID: 26232
+2025-11-26 21:32:40,280 - SDF_GUI - INFO - =========================
+2025-11-26 21:32:40,280 - SDF_GUI - INFO - Process started with PID: 26232
+2025-11-26 21:32:40,300 - SDF_GUI - INFO - Starting output capture for subprocess
+2025-11-26 21:32:40,336 - SDF_GUI - INFO - Started stdout reading thread
+2025-11-26 21:32:40,337 - SDF_GUI - INFO - Started stderr reading thread
+2025-11-26 21:32:40,337 - SDF_GUI - INFO - Starting to process output queues
+2025-11-26 21:58:21,244 - SDF_GUI - INFO - Process exited with code 101, reading remaining output
+2025-11-26 21:58:21,253 - SDF_GUI - INFO - Stderr reader detected process exit
+2025-11-26 21:58:21,253 - SDF_GUI - INFO - Stdout reader detected process exit
+2025-11-26 21:58:21,253 - SDF_GUI - INFO - Stderr reader thread exiting
+2025-11-26 21:58:21,253 - SDF_GUI - INFO - Stdout reader thread exiting
+2025-11-26 21:58:21,254 - SDF_GUI - INFO - Setting up analysis completion UI with output_directory=C:/AIS_Data/Output, success=True
+2025-11-26 21:58:21,776 - SDF_GUI - INFO - ProgressWindow: conduct_additional_analysis requested
+2025-11-26 21:58:21,776 - SDF_GUI - INFO - Found parent with conduct_additional_analysis method: <__main__.SDFGUI object at 0x000001D584118EC0>
+2025-11-26 21:58:21,793 - SDF_GUI - INFO - Opening advanced analytical tools for additional analysis
+2025-11-26 21:58:21,798 - Advanced_Analysis - INFO - Initializing advanced analysis with output_directory=C:/AIS_Data/Output, config_path=c:\Users\chris\OneDrive\Documents\SFD_Beta_release\config.ini
+2025-11-26 21:58:21,799 - Advanced_Analysis - INFO - Resolved config path: c:\Users\chris\OneDrive\Documents\SFD_Beta_release\config.ini
+2025-11-26 21:58:21,803 - Advanced_Analysis - INFO - Searching for cache files: dates=2024-10-01 to 2024-10-03, ship types=[30, 70]
+2025-11-26 21:58:21,803 - Advanced_Analysis - INFO - Found date-specific cache subfolder: C:\Users\chris\.ais_data_cache\20241001-20241003
+2025-11-26 21:58:25,502 - Advanced_Analysis - INFO - File matches criteria: 5ae6a05254a454f35a63821442e4e385.parquet
+2025-11-26 21:58:29,194 - Advanced_Analysis - INFO - File matches criteria: 790f723dd36dabc3d9f5f528b91884b4.parquet
+2025-11-26 21:58:32,633 - Advanced_Analysis - INFO - File matches criteria: bc758b05849c706d7fee66885087a358.parquet
+2025-11-26 21:58:43,040 - Advanced_Analysis - INFO - File matches criteria: consolidated_data.parquet
+2025-11-26 21:58:43,041 - Advanced_Analysis - INFO - Found 4 matching cache files for date range 2024-10-01 to 2024-10-03
+2025-11-26 21:58:43,041 - Advanced_Analysis - INFO - Matching cache files: ['5ae6a05254a454f35a63821442e4e385.parquet', '790f723dd36dabc3d9f5f528b91884b4.parquet', 'bc758b05849c706d7fee66885087a358.parquet', 'consolidated_data.parquet']
+2025-11-26 21:58:44,546 - Advanced_Analysis - INFO - Found 4 matching cache files
+2025-11-26 21:58:44,546 - Advanced_Analysis - INFO - Advanced Analysis initialized with output directory: C:/AIS_Data/Output
+2025-11-26 21:58:44,547 - utils - INFO - Memory usage after initialization: RSS=3359.2109375 MB, Percent=11.013631718206105%
+2025-11-26 21:58:44,599 - Advanced_Analysis - INFO - Loading anomaly data...
+2025-11-26 21:58:44,814 - Advanced_Analysis - INFO - Loaded 90120 anomalies from summary file
+2025-11-26 21:58:45,149 - SDF_GUI - INFO - Advanced analysis GUI launched successfully
+2025-11-26 22:03:31,402 - Advanced_Analysis - INFO - Creating path map for vessel 209593000 using full daily datasets...
+2025-11-26 22:03:31,402 - Advanced_Analysis - INFO - Loading full daily datasets from cache for ML prediction...
+2025-11-26 22:03:31,402 - Advanced_Analysis - INFO - Loading full daily datasets for date range: 2024-10-01 to 2024-10-03
+2025-11-26 22:03:31,403 - Advanced_Analysis - INFO - Loading daily datasets from: C:\Users\chris\.ais_data_cache\20241001-20241003
+2025-11-26 22:03:33,185 - Advanced_Analysis - INFO - Loaded 6251665 records from 5ae6a05254a454f35a63821442e4e385.parquet
+2025-11-26 22:03:34,726 - Advanced_Analysis - INFO - Loaded 5600155 records from 790f723dd36dabc3d9f5f528b91884b4.parquet
+2025-11-26 22:03:36,266 - Advanced_Analysis - INFO - Loaded 5326880 records from bc758b05849c706d7fee66885087a358.parquet
+2025-11-26 22:03:39,853 - Advanced_Analysis - INFO - Total records loaded from full daily datasets: 17175525
+2025-11-26 22:03:40,157 - Advanced_Analysis - INFO - Map output directory: C:\AIS_Data\Output\Path_Maps
+2025-11-26 22:03:40,166 - Advanced_Analysis - INFO - Path map: Added 318 points for vessel 209593000
+2025-11-26 22:03:40,166 - Advanced_Analysis - INFO - Path map: Added 1 anomaly markers for vessel 209593000
+2025-11-26 22:03:40,172 - Advanced_Analysis - INFO - Vessel map created: C:\AIS_Data\Output\Path_Maps\Vessel_209593000_path_20251126_220340.html
+2025-11-26 22:04:24,325 - Advanced_Analysis - INFO - Creating path map for vessel 210296000 using full daily datasets...
+2025-11-26 22:04:24,326 - Advanced_Analysis - INFO - Loading full daily datasets from cache for ML prediction...
+2025-11-26 22:04:24,326 - Advanced_Analysis - INFO - Loading full daily datasets for date range: 2024-10-01 to 2024-10-03
+2025-11-26 22:04:24,326 - Advanced_Analysis - INFO - Loading daily datasets from: C:\Users\chris\.ais_data_cache\20241001-20241003
+2025-11-26 22:04:25,991 - Advanced_Analysis - INFO - Loaded 6251665 records from 5ae6a05254a454f35a63821442e4e385.parquet
+2025-11-26 22:04:27,479 - Advanced_Analysis - INFO - Loaded 5600155 records from 790f723dd36dabc3d9f5f528b91884b4.parquet
+2025-11-26 22:04:28,908 - Advanced_Analysis - INFO - Loaded 5326880 records from bc758b05849c706d7fee66885087a358.parquet
+2025-11-26 22:04:32,768 - Advanced_Analysis - INFO - Total records loaded from full daily datasets: 17175525
+2025-11-26 22:04:33,058 - Advanced_Analysis - INFO - Map output directory: C:\AIS_Data\Output\Path_Maps
+2025-11-26 22:04:33,063 - Advanced_Analysis - INFO - Path map: Added 78 points for vessel 210296000
+2025-11-26 22:04:33,063 - Advanced_Analysis - INFO - Path map: Added 1 anomaly markers for vessel 210296000
+2025-11-26 22:04:33,068 - Advanced_Analysis - INFO - Vessel map created: C:\AIS_Data\Output\Path_Maps\Vessel_210296000_path_20251126_220433.html
+2025-11-26 22:06:52,850 - Advanced_Analysis - INFO - Creating anomaly map for vessel 210930000 using full daily datasets...
+2025-11-26 22:06:52,850 - Advanced_Analysis - INFO - Loading full daily datasets from cache for ML prediction...
+2025-11-26 22:06:52,850 - Advanced_Analysis - INFO - Loading full daily datasets for date range: 2024-10-01 to 2024-10-03
+2025-11-26 22:06:52,851 - Advanced_Analysis - INFO - Loading daily datasets from: C:\Users\chris\.ais_data_cache\20241001-20241003
+2025-11-26 22:06:54,510 - Advanced_Analysis - INFO - Loaded 6251665 records from 5ae6a05254a454f35a63821442e4e385.parquet
+2025-11-26 22:06:55,979 - Advanced_Analysis - INFO - Loaded 5600155 records from 790f723dd36dabc3d9f5f528b91884b4.parquet
+2025-11-26 22:06:57,375 - Advanced_Analysis - INFO - Loaded 5326880 records from bc758b05849c706d7fee66885087a358.parquet
+2025-11-26 22:07:00,962 - Advanced_Analysis - INFO - Total records loaded from full daily datasets: 17175525
+2025-11-26 22:07:01,255 - Advanced_Analysis - INFO - Map output directory: C:\AIS_Data\Output\Path_Maps
+2025-11-26 22:07:01,257 - Advanced_Analysis - INFO - Anomaly map: Added 1 anomaly markers for vessel 210930000
+2025-11-26 22:07:01,261 - Advanced_Analysis - INFO - Vessel map created: C:\AIS_Data\Output\Path_Maps\Vessel_210930000_anomaly_20251126_220701.html
+2025-11-26 22:11:13,507 - SFD - INFO - Python version: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+2025-11-26 22:11:13,507 - SFD - INFO - Python version info: 3.14.0
+2025-11-26 22:11:13,507 - SFD - INFO - Python executable: C:\Users\chris\AppData\Local\Programs\Python\Python314\python.exe
+2025-11-26 22:11:13,507 - SFD - INFO - GPU support detected and enabled (AMD HIP via PyHIP)
+2025-11-26 22:11:13,507 - SFD - INFO - AMD GPU detected on Windows - functionality may be limited
+2025-11-26 22:11:13,508 - map_utils - INFO - MapCoordinateManager initialized
+2025-11-27 18:36:32,372 - utils - INFO - Checking dependencies...
+2025-11-27 18:36:32,373 - utils - INFO - Python version: 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+2025-11-27 18:36:32,373 - utils - INFO - Python executable: C:\Users\chris\AppData\Local\Programs\Python\Python314\python.exe
+2025-11-27 18:36:32,920 - utils - INFO - All dependencies are satisfied.
+2025-11-27 18:37:31,492 - SDF_GUI - INFO - Found script file: SFD.py
+2025-11-27 18:37:31,493 - SDF_GUI - INFO - Script path: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\SFD.py
+2025-11-27 18:37:31,493 - SDF_GUI - INFO - Config path: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\config.ini
+2025-11-27 18:37:31,496 - SDF_GUI - INFO - Command: C:\Users\chris\AppData\Local\Programs\Python\Python314\python.exe C:\Users\chris\OneDrive\Documents\SFD_Beta_release\SFD.py --start-date 2024-10-31 --end-date 2024-11-02 --data-source noaa --output-directory C:/AIS_Data/Output --debug
+Working directory: C:\Users\chris\OneDrive\Documents\SFD_Beta_release
+2025-11-27 18:37:31,674 - SDF_GUI - INFO - Using existing AISDataTemp directory: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp
+2025-11-27 18:37:31,679 - SDF_GUI - INFO - Using temporary directory:
+ - Base: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp
+ - Parquet: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp\parquet
+2025-11-27 18:37:31,683 - SDF_GUI - INFO - STARTING DOWNLOAD PROCESS: NOAA AIS data from 2024-10-31 to 2024-11-02
+2025-11-27 18:37:31,693 - SDF_GUI - INFO - Download phase will be followed by extraction and conversion.
+2025-11-27 18:37:32,073 - SDF_GUI - INFO - Will download 3 daily files
+2025-11-27 18:37:32,258 - SDF_GUI - INFO - Total files to process: 3 (0 cached, 3 to download)
+2025-11-27 18:37:32,263 - SDF_GUI - INFO - Downloading 3 file(s) that are not cached...
+2025-11-27 18:37:32,268 - SDF_GUI - INFO - DOWNLOADING: AIS_2024_10_31.zip (1/3)
+2025-11-27 18:37:37,630 - SDF_GUI - INFO - Download complete: AIS_2024_10_31.zip (1/3)
+2025-11-27 18:37:37,826 - SDF_GUI - INFO - Using existing AISDataTemp directory: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp
+2025-11-27 18:37:37,833 - SDF_GUI - INFO - EXTRACTING: AIS_2024_10_31.zip...
+2025-11-27 18:37:39,477 - SDF_GUI - INFO - CONVERTING: AIS_2024_10_31.csv to parquet format...
+2025-11-27 18:37:39,488 - SDF_GUI - INFO -    - File size: 766.0 MB
+2025-11-27 18:37:46,688 - SDF_GUI - INFO -    - Loaded 7318579 records from CSV
+2025-11-27 18:37:51,722 - SDF_GUI - INFO -    - Conversion complete: ais-2024-10-31.parquet
+2025-11-27 18:37:52,364 - SDF_GUI - INFO - Successfully processed AIS_2024_10_31.zip
+2025-11-27 18:37:52,645 - SDF_GUI - INFO - Cached: ais-2024-10-31.parquet for future use
+2025-11-27 18:37:52,695 - SDF_GUI - INFO - DOWNLOADING: AIS_2024_11_01.zip (2/3)
+2025-11-27 18:38:03,113 - SDF_GUI - INFO - Download complete: AIS_2024_11_01.zip (2/3)
+2025-11-27 18:38:03,141 - SDF_GUI - INFO - Using existing AISDataTemp directory: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp
+2025-11-27 18:38:03,146 - SDF_GUI - INFO - EXTRACTING: AIS_2024_11_01.zip...
+2025-11-27 18:38:04,935 - SDF_GUI - INFO - CONVERTING: AIS_2024_11_01.csv to parquet format...
+2025-11-27 18:38:05,037 - SDF_GUI - INFO -    - File size: 826.1 MB
+2025-11-27 18:38:13,314 - SDF_GUI - INFO -    - Loaded 7893072 records from CSV
+2025-11-27 18:38:18,597 - SDF_GUI - INFO -    - Conversion complete: ais-2024-11-01.parquet
+2025-11-27 18:38:18,929 - SDF_GUI - INFO - Successfully processed AIS_2024_11_01.zip
+2025-11-27 18:38:19,103 - SDF_GUI - INFO - Cached: ais-2024-11-01.parquet for future use
+2025-11-27 18:38:19,145 - SDF_GUI - INFO - DOWNLOADING: AIS_2024_11_02.zip (3/3)
+2025-11-27 18:38:28,594 - SDF_GUI - INFO - Download complete: AIS_2024_11_02.zip (3/3)
+2025-11-27 18:38:28,698 - SDF_GUI - INFO - Using existing AISDataTemp directory: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp
+2025-11-27 18:38:28,703 - SDF_GUI - INFO - EXTRACTING: AIS_2024_11_02.zip...
+2025-11-27 18:38:30,507 - SDF_GUI - INFO - CONVERTING: AIS_2024_11_02.csv to parquet format...
+2025-11-27 18:38:30,578 - SDF_GUI - INFO -    - File size: 834.9 MB
+2025-11-27 18:38:38,975 - SDF_GUI - INFO -    - Loaded 7982166 records from CSV
+2025-11-27 18:38:44,409 - SDF_GUI - INFO -    - Conversion complete: ais-2024-11-02.parquet
+2025-11-27 18:38:44,753 - SDF_GUI - INFO - Successfully processed AIS_2024_11_02.zip
+2025-11-27 18:38:44,922 - SDF_GUI - INFO - Cached: ais-2024-11-02.parquet for future use
+2025-11-27 18:38:44,967 - SDF_GUI - INFO - Successfully processed 3/3 files
+2025-11-27 18:38:44,990 - SDF_GUI - INFO - Using NOAA data source: https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2024/
+2025-11-27 18:38:44,992 - SDF_GUI - INFO - Attempting to start process with cmd: ['C:\\Users\\chris\\AppData\\Local\\Programs\\Python\\Python314\\python.exe', 'C:\\Users\\chris\\OneDrive\\Documents\\SFD_Beta_release\\SFD.py', '--start-date', '2024-10-31', '--end-date', '2024-11-02', '--data-source', 'noaa', '--output-directory', 'C:/AIS_Data/Output', '--debug', '--data-directory', 'C:\\Users\\chris\\OneDrive\\Documents\\SFD_Beta_release\\AISDataTemp\\parquet']
+2025-11-27 18:38:44,993 - SDF_GUI - INFO - =========================
+2025-11-27 18:38:44,993 - SDF_GUI - INFO - DEBUG: Starting subprocess
+2025-11-27 18:38:44,993 - SDF_GUI - INFO - DEBUG: Command: C:\Users\chris\AppData\Local\Programs\Python\Python314\python.exe C:\Users\chris\OneDrive\Documents\SFD_Beta_release\SFD.py --start-date 2024-10-31 --end-date 2024-11-02 --data-source noaa --output-directory C:/AIS_Data/Output --debug --data-directory C:\Users\chris\OneDrive\Documents\SFD_Beta_release\AISDataTemp\parquet
+2025-11-27 18:38:44,993 - SDF_GUI - INFO - DEBUG: Working directory: C:\Users\chris\OneDrive\Documents\SFD_Beta_release
+2025-11-27 18:38:44,994 - SDF_GUI - INFO - DEBUG: Env variables: SFD_GUI_MODE=true
+2025-11-27 18:38:45,000 - SDF_GUI - INFO - DEBUG: Process started with PID: 18256
+2025-11-27 18:38:45,000 - SDF_GUI - INFO - =========================
+2025-11-27 18:38:45,001 - SDF_GUI - INFO - Process started with PID: 18256
+2025-11-27 18:38:45,015 - SDF_GUI - INFO - Starting output capture for subprocess
+2025-11-27 18:38:45,016 - SDF_GUI - INFO - Started stdout reading thread
+2025-11-27 18:38:45,016 - SDF_GUI - INFO - Started stderr reading thread
+2025-11-27 18:38:45,017 - SDF_GUI - INFO - Starting to process output queues
+2025-11-27 18:43:57,405 - SDF_GUI - INFO - Stdout reader detected process exit
+2025-11-27 18:43:57,405 - SDF_GUI - INFO - Stderr reader detected process exit
+2025-11-27 18:43:57,406 - SDF_GUI - INFO - Stdout reader thread exiting
+2025-11-27 18:43:57,406 - SDF_GUI - INFO - Stderr reader thread exiting
+2025-11-27 18:43:57,418 - SDF_GUI - INFO - Process exited with code 101, reading remaining output
+2025-11-27 18:43:57,420 - SDF_GUI - INFO - Setting up analysis completion UI with output_directory=C:/AIS_Data/Output, success=True
+2025-11-27 18:43:57,930 - SDF_GUI - INFO - ProgressWindow: conduct_additional_analysis requested
+2025-11-27 18:43:57,930 - SDF_GUI - INFO - Found parent with conduct_additional_analysis method: <__main__.SDFGUI object at 0x000002731A571010>
+2025-11-27 18:43:58,443 - SDF_GUI - INFO - Opening advanced analytical tools for additional analysis
+2025-11-27 18:43:58,443 - Advanced_Analysis - INFO - Initializing advanced analysis with output_directory=C:/AIS_Data/Output, config_path=C:\Users\chris\OneDrive\Documents\SFD_Beta_release\config.ini
+2025-11-27 18:43:58,443 - Advanced_Analysis - INFO - Resolved config path: C:\Users\chris\OneDrive\Documents\SFD_Beta_release\config.ini
+2025-11-27 18:43:58,446 - Advanced_Analysis - INFO - Searching for cache files: dates=2024-10-31 to 2024-11-02, ship types=[30, 70]
+2025-11-27 18:43:58,446 - Advanced_Analysis - INFO - Found date-specific cache subfolder: C:\Users\chris\.ais_data_cache\20241031-20241102
+2025-11-27 18:44:01,461 - Advanced_Analysis - INFO - File matches criteria: 345781f332aed93655b1b5b80fa203cd.parquet
+2025-11-27 18:44:04,743 - Advanced_Analysis - INFO - File matches criteria: 4fbd6516f69ffddab09ce3146a5ae86a.parquet
+2025-11-27 18:44:07,906 - Advanced_Analysis - INFO - File matches criteria: 72d3442c443891536dcbcc34afd0d0ad.parquet
+2025-11-27 18:44:18,069 - Advanced_Analysis - INFO - File matches criteria: consolidated_data.parquet
+2025-11-27 18:44:18,069 - Advanced_Analysis - INFO - Found 4 matching cache files for date range 2024-10-31 to 2024-11-02
+2025-11-27 18:44:18,069 - Advanced_Analysis - INFO - Matching cache files: ['345781f332aed93655b1b5b80fa203cd.parquet', '4fbd6516f69ffddab09ce3146a5ae86a.parquet', '72d3442c443891536dcbcc34afd0d0ad.parquet', 'consolidated_data.parquet']
+2025-11-27 18:44:19,380 - Advanced_Analysis - INFO - Found 4 matching cache files
+2025-11-27 18:44:19,380 - Advanced_Analysis - INFO - Advanced Analysis initialized with output directory: C:/AIS_Data/Output
+2025-11-27 18:44:19,381 - utils - INFO - Memory usage after initialization: RSS=3651.96484375 MB, Percent=11.973256525781672%
+2025-11-27 18:44:19,421 - Advanced_Analysis - INFO - Loading anomaly data...
+2025-11-27 18:44:19,604 - Advanced_Analysis - INFO - Loaded 61498 anomalies from summary file
+2025-11-27 18:44:19,909 - SDF_GUI - INFO - Advanced analysis GUI launched successfully
+2025-11-27 18:45:08,462 - Advanced_Analysis - INFO - Generating summary report...
+2025-11-27 18:45:08,463 - Advanced_Analysis - INFO - Loading cached data...
+2025-11-27 18:45:08,463 - utils - INFO - Memory usage before loading cached data: RSS=3548.671875 MB, Percent=11.634602331377284%
+2025-11-27 18:45:08,463 - Advanced_Analysis - INFO - Searching for cached data with: date range=2024-10-31 to 2024-11-02, vessel types=[30, 70]
+2025-11-27 18:45:08,464 - Advanced_Analysis - INFO - Found consolidated dataframe at: C:\Users\chris\.ais_data_cache\20241031-20241102\consolidated_data.parquet
+2025-11-27 18:45:12,318 - Advanced_Analysis - INFO - Filtered consolidated data by MainVesselType: 15133380 -> 15133380 records
+2025-11-27 18:45:12,318 - Advanced_Analysis - INFO - Successfully loaded 15133380 records from consolidated dataframe
+2025-11-27 18:45:14,021 - Advanced_Analysis - INFO - Summary report generated: C:/AIS_Data/Output\Summary_Report_20251127_184512.html
+2025-11-27 18:45:29,926 - Advanced_Analysis - INFO - Exporting vessel statistics...
+2025-11-27 18:45:30,009 - Advanced_Analysis - INFO - Processing statistics for 17519 vessels...
+2025-11-27 18:45:31,618 - Advanced_Analysis - INFO - Processing vessel 100/17519...
+2025-11-27 18:45:33,014 - Advanced_Analysis - INFO - Processing vessel 200/17519...
+2025-11-27 18:45:34,517 - Advanced_Analysis - INFO - Processing vessel 300/17519...
+2025-11-27 18:45:35,967 - Advanced_Analysis - INFO - Processing vessel 400/17519...
+2025-11-27 18:45:37,402 - Advanced_Analysis - INFO - Processing vessel 500/17519...
+2025-11-27 18:45:38,897 - Advanced_Analysis - INFO - Processing vessel 600/17519...
+2025-11-27 18:45:40,793 - Advanced_Analysis - INFO - Processing vessel 700/17519...
+2025-11-27 18:45:42,732 - Advanced_Analysis - INFO - Processing vessel 800/17519...
+2025-11-27 18:45:44,304 - Advanced_Analysis - INFO - Processing vessel 900/17519...
+2025-11-27 18:45:45,803 - Advanced_Analysis - INFO - Processing vessel 1000/17519...
+2025-11-27 18:45:47,402 - Advanced_Analysis - INFO - Processing vessel 1100/17519...
+2025-11-27 18:45:48,799 - Advanced_Analysis - INFO - Processing vessel 1200/17519...
+2025-11-27 18:45:50,297 - Advanced_Analysis - INFO - Processing vessel 1300/17519...
+2025-11-27 18:45:51,755 - Advanced_Analysis - INFO - Processing vessel 1400/17519...
+2025-11-27 18:45:53,166 - Advanced_Analysis - INFO - Processing vessel 1500/17519...
+2025-11-27 18:45:54,554 - Advanced_Analysis - INFO - Processing vessel 1600/17519...
+2025-11-27 18:45:55,886 - Advanced_Analysis - INFO - Processing vessel 1700/17519...
+2025-11-27 18:45:57,161 - Advanced_Analysis - INFO - Processing vessel 1800/17519...
+2025-11-27 18:45:58,682 - Advanced_Analysis - INFO - Processing vessel 1900/17519...
+2025-11-27 18:46:00,053 - Advanced_Analysis - INFO - Processing vessel 2000/17519...
+2025-11-27 18:46:01,306 - Advanced_Analysis - INFO - Processing vessel 2100/17519...
+2025-11-27 18:46:02,597 - Advanced_Analysis - INFO - Processing vessel 2200/17519...
+2025-11-27 18:46:03,976 - Advanced_Analysis - INFO - Processing vessel 2300/17519...
+2025-11-27 18:46:05,322 - Advanced_Analysis - INFO - Processing vessel 2400/17519...
+2025-11-27 18:46:06,610 - Advanced_Analysis - INFO - Processing vessel 2500/17519...
+2025-11-27 18:46:07,995 - Advanced_Analysis - INFO - Processing vessel 2600/17519...
+2025-11-27 18:46:09,289 - Advanced_Analysis - INFO - Processing vessel 2700/17519...
+2025-11-27 18:46:10,653 - Advanced_Analysis - INFO - Processing vessel 2800/17519...
+2025-11-27 18:46:11,941 - Advanced_Analysis - INFO - Processing vessel 2900/17519...
+2025-11-27 18:46:13,208 - Advanced_Analysis - INFO - Processing vessel 3000/17519...
+2025-11-27 18:46:14,471 - Advanced_Analysis - INFO - Processing vessel 3100/17519...
+2025-11-27 18:46:15,829 - Advanced_Analysis - INFO - Processing vessel 3200/17519...
+2025-11-27 18:46:17,082 - Advanced_Analysis - INFO - Processing vessel 3300/17519...
+2025-11-27 18:46:18,367 - Advanced_Analysis - INFO - Processing vessel 3400/17519...
+2025-11-27 18:46:19,826 - Advanced_Analysis - INFO - Processing vessel 3500/17519...
+2025-11-27 18:46:22,136 - Advanced_Analysis - INFO - Processing vessel 3600/17519...
+2025-11-27 18:46:24,304 - Advanced_Analysis - INFO - Processing vessel 3700/17519...
+2025-11-27 18:46:26,445 - Advanced_Analysis - INFO - Processing vessel 3800/17519...
+2025-11-27 18:46:28,677 - Advanced_Analysis - INFO - Processing vessel 3900/17519...
+2025-11-27 18:46:30,930 - Advanced_Analysis - INFO - Processing vessel 4000/17519...
+2025-11-27 18:46:33,166 - Advanced_Analysis - INFO - Processing vessel 4100/17519...
+2025-11-27 18:46:35,385 - Advanced_Analysis - INFO - Processing vessel 4200/17519...
+2025-11-27 18:46:37,518 - Advanced_Analysis - INFO - Processing vessel 4300/17519...
+2025-11-27 18:46:39,670 - Advanced_Analysis - INFO - Processing vessel 4400/17519...
+2025-11-27 18:46:41,781 - Advanced_Analysis - INFO - Processing vessel 4500/17519...
+2025-11-27 18:46:44,051 - Advanced_Analysis - INFO - Processing vessel 4600/17519...
+2025-11-27 18:46:46,137 - Advanced_Analysis - INFO - Processing vessel 4700/17519...
+2025-11-27 18:46:48,117 - Advanced_Analysis - INFO - Processing vessel 4800/17519...
+2025-11-27 18:46:50,333 - Advanced_Analysis - INFO - Processing vessel 4900/17519...
+2025-11-27 18:46:52,464 - Advanced_Analysis - INFO - Processing vessel 5000/17519...
+2025-11-27 18:46:54,585 - Advanced_Analysis - INFO - Processing vessel 5100/17519...
+2025-11-27 18:46:56,695 - Advanced_Analysis - INFO - Processing vessel 5200/17519...
+2025-11-27 18:46:58,742 - Advanced_Analysis - INFO - Processing vessel 5300/17519...
+2025-11-27 18:47:01,094 - Advanced_Analysis - INFO - Processing vessel 5400/17519...
+2025-11-27 18:47:03,364 - Advanced_Analysis - INFO - Processing vessel 5500/17519...
+2025-11-27 18:51:17,428 - Advanced_Analysis - INFO - Creating full spectrum anomaly map...
+2025-11-27 18:51:17,429 - Advanced_Analysis - INFO - Map output directory: C:\AIS_Data\Output\Path_Maps
+2025-11-27 18:52:00,697 - Advanced_Analysis - INFO - Full spectrum map created: C:\AIS_Data\Output\Path_Maps\Full_Spectrum_Map_20251127_185117.html
+2025-11-27 18:58:03,031 - Advanced_Analysis - INFO - Creating filtered path map: vessel_types=None, anomaly_types=None, vessel_mmsi=None, use_full_datasets=False
+2025-11-27 18:58:03,032 - Advanced_Analysis - INFO - Map output directory: C:\AIS_Data\Output\Path_Maps
